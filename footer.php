@@ -3,9 +3,9 @@
     <div class="container py-5">
       <div class="row py-4">
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <h2 class="text-danger font-weight-bold mb-3">The Tourist App</h2>
+            <h2 class="text-danger font-weight-bold mb-3">E-voting app</h2>
             <!-- <img src="https://i.pinimg.com/originals/33/b8/69/33b869f90619e81763dbf1fccc896d8d.jpg" alt="" width="180" class="mb-3"> -->
-          <p class="font-italic text-muted">All about Australian Cities and Lifestyle</p>
+          <p class="font-italic text-muted">Making your votes count!!!</p>
           <ul class="list-inline mt-4">
             <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-facebook"></i></a></li>
@@ -14,27 +14,7 @@
             <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fab fa-vimeo"></i></a></li>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-          <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="about.php" class="text-muted">About</a></li>
-            <li class="mb-2"><a href="contact-us.php" class="text-muted">Contact</a></li>
-            <li class="mb-2"><a href="explore.php" class="text-muted">Explore</a></li>
-          </ul>
         </div>
-        <div class="col-lg-4 col-md-6 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-          <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
-          <div class="p-1 rounded border">
-            <div class="input-group">
-              <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
-              <div class="input-group-append">
-                <button id="button-addon1" type="submit" class="btn btn-link"><i class="fa fa-paper-plane"></i></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- Copyrights -->
