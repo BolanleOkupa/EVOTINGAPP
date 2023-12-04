@@ -6,7 +6,7 @@
     $('#dateofbirth').attr('max', maxDate);
 
     var fileList;
-     // Listen for the change event so we can capture the file
+     // Listen for the change event so I can capture the file
     document.getElementById('iddoc').addEventListener('change', (e) => {
     fileList = [];
         // Get a reference to the file
