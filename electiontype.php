@@ -10,7 +10,7 @@
 
     <script type="text/javascript" src="static/js/electiontype.js"></script>
     <title>Election Categories</title>
-    <link rel="stylesheet" href="./styles.css"> <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="./styles.css"> <!-- Link to my custom CSS file -->
 
 </head>
 
