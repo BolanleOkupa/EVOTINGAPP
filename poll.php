@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Voting App- Poll Monitoring</title>
-    <link rel="stylesheet" href="./styles.css"> <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="./styles.css"> <!-- Link to my custom CSS file -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 
@@ -101,7 +101,7 @@
 
             // Create a SpeechSynthesisUtterance object
             const speech = new SpeechSynthesisUtterance();
-            speech.lang = "en-US"; // Set language (you can change it based on your audience)
+            speech.lang = "en-US"; // Set language 
 
             // Set the text that will be spoken
             speech.text = allText;
