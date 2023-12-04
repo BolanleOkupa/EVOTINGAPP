@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script type="text/javascript" src="static/js/candidates.js"></script>
-    <title>The Tourist- Add story</title>
+    <title>E-Voting</title>
 </head>
 <body>
 <div align="center" style="height: auto; background-image: url(./images/background.jpeg); background-size: cover; background-position: center;" class="position-relative w-100"> 
