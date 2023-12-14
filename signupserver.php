@@ -48,6 +48,9 @@ $connection = mysqli_connect("localhost", "root", "", "votingapp");
            http_response_code(500);
        }
       else {
+              // encrypt password
+              $password = hash("sha256", $password)
+              
               $sql = "INSERT INTO users(firstname, lastname, dob, iddoc, gender, email, password, status, role) VALUES (?,?,?,?,?,?,?,?,?)";
               $stmtInsert = $db->prepare($sql);
               $result = $stmtInsert->execute([$firstname, $lastname, $dateofbirth, $idDoc, $gender, $email, $password, 'PENDING', 'VOTER']);

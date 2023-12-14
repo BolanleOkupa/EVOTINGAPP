@@ -20,6 +20,11 @@ if(isset($_POST)){
     $password = $data->password;
 
     // Validate username and password is correct and status is active
+    //$emailExists = "SELECT id, firstname, lastname, email, status, role FROM users WHERE status = 'ACTIVE' and email = '$email' and password = '$password'";
+    
+    // encrypt password
+    $password = hash("sha256", $password)
+
     $emailExists = "SELECT id, firstname, lastname, email, status, role FROM users WHERE status = 'ACTIVE' and email = '$email' and password = '$password'";
     $result = mysqli_query($connection, $emailExists);
     $userCount = mysqli_num_rows($result);

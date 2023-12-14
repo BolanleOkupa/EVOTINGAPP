@@ -25,6 +25,9 @@ require_once('dbaccess.php')
             http_response_code(500);
             return;
         }
+        // encrypt voter id (to make the voter unknown in the database)
+        $voterId = hash("sha256", $voterId)
+
         $sql = "INSERT INTO polls(candidateid, voterid, electionid) VALUES (?,?,?)";
         $stmtInsert = $db->prepare($sql);
         $result = $stmtInsert->execute([$candidateId, $voterId, $electionId]);

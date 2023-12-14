@@ -47,6 +47,9 @@ $connection = mysqli_connect("localhost", "root", "", "votingapp");
             http_response_code(500);
             return;
         }
+        // encrypt password
+        $password = hash("sha256", $password)
+        
         $query = "UPDATE users set reset_token_hash = null, reset_token_expires_at = null, password = '$password' where email = '$email'";
         $updateResult = mysqli_query($connection, $query);
         $resp = [ 'message' => 'Password was changed successfully' ];
